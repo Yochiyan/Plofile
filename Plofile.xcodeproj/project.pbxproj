@@ -13,6 +13,7 @@
 		59E654DD27803B8F0063A374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E654DB27803B8F0063A374 /* Main.storyboard */; };
 		59E654DF27803B910063A374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E654DE27803B910063A374 /* Assets.xcassets */; };
 		59E654E227803B910063A374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E654E027803B910063A374 /* LaunchScreen.storyboard */; };
+		59E654EA27803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E654E927803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59E654DE27803B910063A374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E654E127803B910063A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E654E327803B910063A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E654E927803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mini_magick20191225-22534-z6djj5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				59E654D927803B8F0063A374 /* ViewController.swift */,
 				59E654DB27803B8F0063A374 /* Main.storyboard */,
 				59E654DE27803B910063A374 /* Assets.xcassets */,
+				59E654E927803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg */,
 				59E654E027803B910063A374 /* LaunchScreen.storyboard */,
 				59E654E327803B910063A374 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E654EA27803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg in Resources */,
 				59E654E227803B910063A374 /* LaunchScreen.storyboard in Resources */,
 				59E654DF27803B910063A374 /* Assets.xcassets in Resources */,
 				59E654DD27803B8F0063A374 /* Main.storyboard in Resources */,
