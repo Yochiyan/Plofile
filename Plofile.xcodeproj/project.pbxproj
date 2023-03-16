@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5955C62027D4E43E008F7E43 /* IMG_0291.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5955C61F27D4E43E008F7E43 /* IMG_0291.jpg */; };
 		59E654D627803B8F0063A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E654D527803B8F0063A374 /* AppDelegate.swift */; };
 		59E654D827803B8F0063A374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E654D727803B8F0063A374 /* SceneDelegate.swift */; };
 		59E654DA27803B8F0063A374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E654D927803B8F0063A374 /* ViewController.swift */; };
@@ -16,7 +17,21 @@
 		59E654EA27803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E654E927803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		593CC25828843D9E0019E3CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5955C61F27D4E43E008F7E43 /* IMG_0291.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0291.jpg; sourceTree = "<group>"; };
 		59E654D227803B8F0063A374 /* Plofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E654D527803B8F0063A374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E654D727803B8F0063A374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +78,7 @@
 				59E654D927803B8F0063A374 /* ViewController.swift */,
 				59E654DB27803B8F0063A374 /* Main.storyboard */,
 				59E654DE27803B910063A374 /* Assets.xcassets */,
+				5955C61F27D4E43E008F7E43 /* IMG_0291.jpg */,
 				59E654E927803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg */,
 				59E654E027803B910063A374 /* LaunchScreen.storyboard */,
 				59E654E327803B910063A374 /* Info.plist */,
@@ -80,6 +96,7 @@
 				59E654CE27803B8F0063A374 /* Sources */,
 				59E654CF27803B8F0063A374 /* Frameworks */,
 				59E654D027803B8F0063A374 /* Resources */,
+				593CC25828843D9E0019E3CE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -97,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					59E654D127803B8F0063A374 = {
@@ -129,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E654EA27803BC80063A374 /* mini_magick20191225-22534-z6djj5.jpg in Resources */,
+				5955C62027D4E43E008F7E43 /* IMG_0291.jpg in Resources */,
 				59E654E227803B910063A374 /* LaunchScreen.storyboard in Resources */,
 				59E654DF27803B910063A374 /* Assets.xcassets in Resources */,
 				59E654DD27803B8F0063A374 /* Main.storyboard in Resources */,

@@ -20,23 +20,23 @@ class ViewController: UIViewController {
         }
     //push
     @IBAction func Button () {
-        ImageView.image = UIImage(named: "mini_magick20191225-22534-z6djj5")
+        ImageView.image = UIImage(named: "Yochiyan_2023")
         Labelname.text = "よっちゃん"
         Labelhonbun.text = "よっちゃんだよ"
         
     }
     @IBAction func Button2 () {
         
-        ImageView.image = UIImage(named: "2021-03-11--20-58-31")
+        ImageView.image = UIImage(named: "しーちゃんicon22")
         Labelname.text = "白子"
         Labelhonbun.text = "最近イメチェンした白子だよ"
         
 
 }
     @IBAction func Button3 () {
-        ImageView.image = UIImage(named: "2021-23-3--19-35-561黒子")
+        ImageView.image = UIImage(named: "くーちゃんicon22")
         Labelname.text = "黒子"
-        Labelhonbun.text = "白子ちゃんみたいにイメチェンしようか迷ってる黒子だよ"
+        Labelhonbun.text = "白子ちゃんみたいにイメチェンした黒子だよ"
     }
     @IBAction func Button4 () {
         ImageView.image = UIImage(named: "App icon")
@@ -44,3 +44,4 @@ class ViewController: UIViewController {
         Labelhonbun.text = "プロフィールを表示するためのApp."
     }
 }
+//Visual Studio Codeマジ神。 2022/03/23

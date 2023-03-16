@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,20 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mini_magick20191225-22534-z6djj5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mfT-Jw-0c3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yochiyan_2023" translatesAutoresizingMaskIntoConstraints="NO" id="mfT-Jw-0c3">
+                                <rect key="frame" x="0.0" y="30" width="414" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="zd9-fC-pOM"/>
+                                    <constraint firstAttribute="height" constant="350" id="zd9-fC-pOM"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrT-v9-Eug">
-                                <rect key="frame" x="30" y="342.5" width="355" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrT-v9-Eug">
+                                <rect key="frame" x="16" y="391.33333333333331" width="369" height="26.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="よっちゃん">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name=".HiraKakuInterface-W3"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="よっちゃんだよ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWW-oe-smS">
-                                <rect key="frame" x="16" y="379" width="382" height="20.5"/>
+                                <rect key="frame" x="16" y="434" width="382" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -39,22 +47,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="DYS-6Z-yyG">
-                                <rect key="frame" x="16" y="799" width="382" height="31"/>
+                                <rect key="frame" x="16" y="795.66666666666663" width="382" height="34.333333333333371"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6Nq-oq-vOW">
-                                        <rect key="frame" x="0.0" y="0.0" width="183" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="34.333333333333336"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnQ-t1-xxp">
-                                                <rect key="frame" x="0.0" y="0.0" width="83.5" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="34.333333333333336"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="名前"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="よっちゃん">
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="Button" destination="BYZ-38-t0r" eventType="touchUpInside" id="plk-v6-Bhd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbH-gn-AQQ">
-                                                <rect key="frame" x="99.5" y="0.0" width="83.5" height="31"/>
+                                                <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="34.333333333333336"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="白子"/>
@@ -65,13 +75,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jr7-vE-e1F">
-                                        <rect key="frame" x="199" y="0.0" width="183" height="31"/>
+                                        <rect key="frame" x="199" y="0.0" width="183" height="34.333333333333336"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TYM-Zp-KDi">
-                                                <rect key="frame" x="0.0" y="0.0" width="183" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="183" height="34.333333333333336"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yiu-2b-XX1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="91.5" height="31"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="34.333333333333336"/>
                                                         <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="黒子"/>
@@ -80,7 +90,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMO-4U-7kM">
-                                                        <rect key="frame" x="91.5" y="0.0" width="91.5" height="31"/>
+                                                        <rect key="frame" x="91.666666666666686" y="0.0" width="91.333333333333314" height="34.333333333333336"/>
                                                         <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="テスト"/>
@@ -99,15 +109,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mfT-Jw-0c3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2bg-eT-O6P"/>
-                            <constraint firstItem="mfT-Jw-0c3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5DR-os-XYl"/>
+                            <constraint firstItem="mfT-Jw-0c3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="5DR-os-XYl"/>
                             <constraint firstItem="zWW-oe-smS" firstAttribute="top" secondItem="HrT-v9-Eug" secondAttribute="bottom" constant="16" id="6vt-1e-AQL"/>
                             <constraint firstItem="mfT-Jw-0c3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EHr-yU-Z36"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HrT-v9-Eug" secondAttribute="bottom" constant="499" id="Ojc-0C-odz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HrT-v9-Eug" secondAttribute="bottom" constant="444" id="Ojc-0C-odz"/>
                             <constraint firstItem="DYS-6Z-yyG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Qh5-uy-qz9"/>
                             <constraint firstAttribute="trailing" secondItem="DYS-6Z-yyG" secondAttribute="trailing" constant="16" id="fZK-LU-pub"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HrT-v9-Eug" secondAttribute="trailing" constant="29" id="i3C-4a-1Ot"/>
                             <constraint firstItem="zWW-oe-smS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="j7v-da-sqn"/>
-                            <constraint firstItem="HrT-v9-Eug" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="kui-Ab-1s0"/>
+                            <constraint firstItem="HrT-v9-Eug" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kui-Ab-1s0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DYS-6Z-yyG" secondAttribute="bottom" constant="32" id="sq8-gv-XwS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zWW-oe-smS" secondAttribute="trailing" constant="16" id="wZq-jE-3kX"/>
                         </constraints>
@@ -124,7 +134,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mini_magick20191225-22534-z6djj5.jpg" width="400" height="400"/>
+        <image name="Yochiyan_2023" width="2316" height="2069"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
